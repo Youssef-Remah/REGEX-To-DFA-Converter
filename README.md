@@ -1,4 +1,4 @@
-						Regular Expression to DFA Converter
+**Regular Expression to DFA Converter**
 Objective
 
 The objective of this project is to implement a REGEX to DFA converter using an Abstract Syntax Tree (AST) instead of the traditional approach of converting the REGEX to a Non-deterministic Finite Automaton (NFA) and then converting the NFA to a DFA.
