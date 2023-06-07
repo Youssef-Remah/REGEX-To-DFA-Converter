@@ -1,0 +1,9 @@
+﻿  Node.cpp
+  REGEX_To_DFA.cpp
+D:\C++Projects\REGEX_To_DFA\REGEX_To_DFA\REGEX_To_DFA.cpp(482,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  State.cpp
+  Transitions.cpp
+  Generating Code...
+D:\C++Projects\REGEX_To_DFA\REGEX_To_DFA\REGEX_To_DFA.cpp(478): warning C4715: 'searchForState': not all control paths return a value
+D:\C++Projects\REGEX_To_DFA\REGEX_To_DFA\REGEX_To_DFA.cpp(526): warning C4715: 'validateString': not all control paths return a value
+  REGEX_To_DFA.vcxproj -> D:\C++Projects\REGEX_To_DFA\x64\Debug\REGEX_To_DFA.exe
