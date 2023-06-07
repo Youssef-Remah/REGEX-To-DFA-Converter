@@ -14,29 +14,29 @@ This console application is developed using the C++ programming language. C++ is
 
 Instead of creating an NFA as an intermediate step, we directly convert the REGEX to a DFA using the following steps:
 
-    1. Augmented REGEX: Firstly, the regular expression is converted into an augmented regular expression by concatenating it with a '#' symbol. (r -> (r)#)
+1. Augmented REGEX: Firstly, the regular expression is converted into an augmented regular expression by concatenating it with a '#' symbol. (r -> (r)#)
 
-    2. Postfix Expression: Next, the augmented REGEX is converted into a postfix expression.
+2. Postfix Expression: Next, the augmented REGEX is converted into a postfix expression.
 
-    3. Syntax Tree Construction: We construct a syntax tree for the postfix expression.
+3. Syntax Tree Construction: We construct a syntax tree for the postfix expression.
 
-    4. Tree Traversal: The tree is traversed to construct four essential functions: nullable, firstpos, lastpos, and followpos.
+4. Tree Traversal: The tree is traversed to construct four essential functions: nullable, firstpos, lastpos, and followpos.
 
-    5. Follow Position Table: We construct the follow position table.
+5. Follow Position Table: We construct the follow position table.
 
-    6. DFA Construction: Finally, we convert the REGEX directly to a DFA by constructing a new table using the follow position table and employing an approach similar to the subset construction algorithm.
+6. DFA Construction: Finally, we convert the REGEX directly to a DFA by constructing a new table using the follow position table and employing an approach similar to the subset construction algorithm.
 
 4. Program Input
 
 The program expects the following inputs:
 
-    - Number of test cases: The user enters the number of test cases.
-    - Regular Expression: For each test case, the user enters a regular expression (e.g., (a|b)*).
-    - Input Strings: For each test case, the user enters a string to check whether it is accepted or rejected by the DFA.
+- Number of test cases: The user enters the number of test cases.
+- Regular Expression: For each test case, the user enters a regular expression (e.g., (a|b)*).
+- Input Strings: For each test case, the user enters a string to check whether it is accepted or rejected by the DFA.
 
 5. Program Output
 
 The program produces the following output:
 
-    - DFA Table: The program displays a simple representation of the DFA table, including its states and transitions, to the console.
-    - Test Case Status: For each test case, the program displays its status, indicating whether it is accepted or rejected by the DFA.
+- DFA Table: The program displays a simple representation of the DFA table, including its states and transitions, to the console.
+- Test Case Status: For each test case, the program displays its status, indicating whether it is accepted or rejected by the DFA.
