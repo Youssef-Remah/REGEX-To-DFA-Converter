@@ -1,4 +1,4 @@
-						*Regular Expression to DFA Converter*
+						Regular Expression to DFA Converter
 							
 Objective
 
