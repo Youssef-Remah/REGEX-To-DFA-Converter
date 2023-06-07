@@ -11,7 +11,7 @@ This program converts a Regular Expression (REGEX) into a Deterministic Finite A
 This console application is developed using the C++ programming language. C++ is chosen as the primary language for this program due to its ability to effectively handle tree data structures, making it the ideal choice for utilizing the power of C++ pointers.
 
 ### 3. Approach
-3.1. Conversion without creating an NFA
+### 3.1. Conversion without creating an NFA
 
 Instead of creating an NFA as an intermediate step, we directly convert the REGEX to a DFA using the following steps:
 
