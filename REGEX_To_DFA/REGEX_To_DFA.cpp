@@ -274,28 +274,7 @@ void positionInitializerDfs(Node* node) {
     //if node is an operator
 
     if (node->value == '.' || node->value == '|' || node->value == '*' || node->value == '+')
-    {
-        //check if left child exists
-        if (node->right != nullptr)
-        {
-            //check if left child's fpos is not empty
-            if (node->right->fPos.size() != 0)
-            {
-                //check if right child exists
-                if (node->left != nullptr)
-                {
-                    //check if right child's fpos is not empty
-                    if (node->left->fPos.size() != 0)
-                        //compute Fpos & Lpos for the operator node
-                        operatorPositionInitializer(node);
-                }
-                else
-                    //compute Fpos & Lpos for the operator node
-                    //Note: probably the operator is * (TODO: Validate through testing)
-                    operatorPositionInitializer(node);
-            }
-        }
-    }
+        operatorPositionInitializer(node);
 }
 
 void operatorPositionInitializer(Node* node) {
