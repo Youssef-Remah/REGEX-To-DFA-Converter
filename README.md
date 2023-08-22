@@ -41,3 +41,8 @@ The program produces the following output:
 
 - DFA Table: The program displays a simple representation of the DFA table, including its states and transitions, to the console.
 - Test Case Status: For each test case, the program displays its status, indicating whether it is accepted or rejected by the DFA.
+
+
+## Team Collaboration and Contributions
+
+I feel privileged to have partnered with **[Mazen Abdallah](https://github.com/MazenMohamedAbdalla)** on this project. I'm grateful for his hard work and commitment to the project's goals. The seamless teamwork and synergy we've shared have truly enriched this experience.
