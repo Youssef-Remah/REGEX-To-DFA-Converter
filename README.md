@@ -45,4 +45,4 @@ The program produces the following output:
 
 ## Team Collaboration and Contributions
 
-I feel privileged to have partnered with **[Mazen Abdallah](https://github.com/MazenMohamedAbdalla)** on this project. I'm grateful for his hard work and commitment to the project's goals. The seamless teamwork and synergy we've shared have truly enriched this experience.
+I feel privileged to have partnered with **[Mazen Abdalla](https://github.com/MazenMohamedAbdalla)** on this project. I'm grateful for his hard work and commitment to the project's goals. The seamless teamwork and synergy we've shared have truly enriched this experience.
